@@ -8,8 +8,6 @@ var configuration = new ConfigurationBuilder()
 
 string connectionString = configuration.GetConnectionString("DataLakeConnectionString");
 
-
-//var connectionString = "DefaultEndpointsProtocol=https;AccountName=datalakestoragekj;AccountKey=6Un4cDKY02Wa4nhXKpwgIULyCGW2vwl9z52tEyOkLCut/r0OAK0aPUK/4ubJPbziReW+aLUK6Pdn+AStlXOGxw==;EndpointSuffix=core.windows.net";
 var containerName = "new-datalake-storage";
 
 //var connectionString = "myconnection";
